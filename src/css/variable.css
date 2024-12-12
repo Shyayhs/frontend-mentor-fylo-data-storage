@@ -1,0 +1,9 @@
+:root {
+    --gradient-initial: hsl(6, 100%, 80%);
+    --gradient-final: hsl(335, 100%, 65%);
+    --pale-color: hsl(243, 100%, 93%);
+    --medium-color: hsl(229, 40%, 55%);
+    --dark-color: hsl(228, 56%, 26%);
+    --very-dark-color: hsl(229, 57%, 11%);
+    --link-color: hsl(228, 45%, 74%);
+}

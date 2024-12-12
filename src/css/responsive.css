@@ -1,0 +1,54 @@
+@media (max-width: 900px) {
+    body {
+        background: url(../images/bg-mobile.png) no-repeat;
+        background-size: cover;
+        padding: 20px;
+    }
+
+    main {
+        background: none;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .logo {
+        width: 160px;
+    }
+
+    .file-options {
+        gap: 20px;
+    }
+
+    .option {
+        padding: 15px;
+    }
+
+    .icon {
+        font-size: 25px;
+    }
+
+    .current-download {
+        padding: 30px;
+        transform: none;
+        padding-bottom: 0;
+    }
+
+    .message-gb-left {
+        border-radius: 8px;
+        padding: 20px;
+        position: initial;
+        width: fit-content;
+        align-self: center;
+        transform: translateY(40px);
+        right: 0;
+        bottom: 0;
+    }
+
+    .message-gb-left:after {
+        display: none;
+    }
+}
